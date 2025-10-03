@@ -5,7 +5,7 @@ Submit source code files (main.c, slist.c, slist.h) to Gradescope.
 
 An abstract data type (ADT) is a model of how data can be stored and accessed without specifying a concrete implementation. Examples include stacks, queues, priority queues,dictionaries. The Java Collections Framework and the Standard Template Library in C++ provide support for these ADTs. In the C programming language we need to implement most of these ADTs ourselves. An ADT is usually implemented with basic data structures such as arrays or linked lists. The interface or set of operations that the ADT supports effectively hides the implementation details.
 A double-ended queue, or deque, is an abstract data type which stores data as a sequence that can be accessed at both ends. One end is referred to as the 'front' and the other the 'back', but data can be added to or removed from either end. The basic operations supported by a deque are:
-  push_back( data )
+  push_back( data )/n
   push_front( data )
   data pop_back( )
   data pop_front( )
