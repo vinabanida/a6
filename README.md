@@ -99,7 +99,7 @@ After reading the file the resulting deque should be:
 
 Andrew    Betty    Candace    Dennis    Edward
 
-(front)                                 (back)
+(andrew front)                                 (edward back)
 
 Here is an example run of the program:
 
