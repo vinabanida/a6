@@ -58,15 +58,25 @@ Each deque function in main.c is just a wrapper for one of the functions in slis
 
 Then you can read the file and create a buffer for each name with something like:
 
+
   Bool done = F;
+  
   while (!done)
+  
   {
+  
       char* name = malloc(MAX_NAME_LEN);
+      
       if (fscanf(fp, "%s", name) == 1)
+      
           push_back(&q, name);
+          
       else
+      
           done = T;
+          
   }
+  
   
 **Testing**
 
