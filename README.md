@@ -86,45 +86,83 @@ Edward
 After reading the file the resulting deque should be:
 
 Andrew    Betty    Candace    Dennis    Edward
+
 (front)                                 (back)
 
 Here is an example run of the program:
 
 To scroll through the names type
+
 f: forwards, b: backwards, q: quit
+
 f
+
 Andrew
+
 f
+
 Betty
+
 f
+
 Candace
+
 f
+
 Dennis
+
 f
+
 Edward
+
 f
+
 Andrew
+
 f
+
 Betty
+
 f
+
 Candace
+
 b
+
 Candace
+
 b
+
 Betty
+
 b
+
 Andrew
+
 b
+
 Edward
+
 b
+
 Dennis
+
 b
+
 Candace
+
 b
+
 Betty
+
 b
+
 Andrew
+
 b
+
 Edward
+
 q
+
 Bye!
