@@ -5,10 +5,15 @@ Submit source code files (main.c, slist.c, slist.h) to Gradescope.
 
 An abstract data type (ADT) is a model of how data can be stored and accessed without specifying a concrete implementation. Examples include stacks, queues, priority queues,dictionaries. The Java Collections Framework and the Standard Template Library in C++ provide support for these ADTs. In the C programming language we need to implement most of these ADTs ourselves. An ADT is usually implemented with basic data structures such as arrays or linked lists. The interface or set of operations that the ADT supports effectively hides the implementation details.
 A double-ended queue, or deque, is an abstract data type which stores data as a sequence that can be accessed at both ends. One end is referred to as the 'front' and the other the 'back', but data can be added to or removed from either end. The basic operations supported by a deque are:
-  push_back( data )/n
+
+  push_back( data )
+  
   push_front( data )
+  
   data pop_back( )
+  
   data pop_front( )
+  
 Deques are often implemented with a dynamic array or a doubly linked list. Here we will explore the use of a singly linked list to implement a deque.
 
 **Requirements**
@@ -40,8 +45,11 @@ Organize your code as follows:
 **slist.c / slist.h**
 
 void insertHead(SList* list, char* data)...
+
 char* removeHead(SList* list)...
+
 void insertTail(SList* list, char* data)...
+
 char* removeTail(SList* list)...
 
 Each deque function in main.c is just a wrapper for one of the functions in slist.c. In main you can declare a deque, which is just a typedef of a singly linked list:
@@ -66,9 +74,13 @@ When testing, you are checking to see that the program satisfies the requirement
 Here is an example 'names.txt' file that you should use:
 
 Andrew
+
 Betty
+
 Candace
+
 Dennis
+
 Edward
 
 After reading the file the resulting deque should be:
