@@ -28,9 +28,13 @@ Organize your code as follows:
 **main.c**
 
  void push_back(Deque* q, char* data)...
+ 
  void push_front(Deque* q, char* data)...
+ 
  char* pop_back(Deque* q)...
+ 
  char* pop_front(Deque* q)...
+ 
  int main(int argc, char* argv[])...
 
 **slist.c / slist.h**
@@ -68,6 +72,7 @@ Dennis
 Edward
 
 After reading the file the resulting deque should be:
+
 Andrew    Betty    Candace    Dennis    Edward
 (front)                                 (back)
 
