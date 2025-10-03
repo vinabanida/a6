@@ -73,15 +73,15 @@ Then you can read the file and create a buffer for each name with something like
 When testing, you are checking to see that the program satisfies the requirements. Test to see that you can cycle through all the names from the file in both directions.
 Here is an example 'names.txt' file that you should use:
 
-Andrew
+  Andrew
 
-Betty
+  Betty
 
-Candace
+  Candace
 
-Dennis
+  Dennis
 
-Edward
+  Edward
 
 After reading the file the resulting deque should be:
 
