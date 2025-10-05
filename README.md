@@ -1,3 +1,8 @@
+Open folder <a6> in code editor
+Open the terminal
+At prompt, enter command: git pull
+Then run the program
+
 # a6
 Submit source code files (main.c, slist.c, slist.h) to Gradescope.
 
