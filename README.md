@@ -1,4 +1,4 @@
-Open folder <a6> in code editor
+Open folder <a6> in code editor\n
 Open the terminal
 At prompt, enter command: git pull
 Then run the program
